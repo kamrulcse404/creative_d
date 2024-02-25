@@ -978,109 +978,22 @@
   text-decoration: none;
 }
 
-.jobs-two-main .left,
-.jobs-two-main .right {
+
+.jobs-two-main .job-item {
+  display: flex;
+  gap: 80px;
+}
+
+.jobs-two-main .job-item-left {
   background-color: #FBF8FF;
-  padding: 40px;
-  border-radius: 20px;
-
   font-family: 'myFont';
-  font-size: 22px;
-  font-weight: 400;
-
+  width: 30%;
 }
 
-.jobs-two-main .right .job-desc {}
-
-.jobs-two-main .right .job-respon {
-  line-height: 44px;
-  margin-top: 87px;
-}
-
-.jobs-two-main .right .job-requirment,
-.jobs-two-main .right .job-opt-req,
-.jobs-two-main .right .job-exp,
-.jobs-two-main .right .job-location,
-.jobs-two-main .right .job-edu,
-.jobs-two-main .right .job-type,
-.jobs-two-main .right .job-shift,
-.jobs-two-main .right .job-dept,
-.jobs-two-main .right  .job-slary,
-.jobs-two-main .right .job-benefit,
-.jobs-two-main .right .job-photo,
-.jobs-two-main .right .job-deadline,
-.jobs-two-main .right .job-note {
-  line-height: 44px;
-  margin-top: 30px; 
-}
-
-.jobs-two-main .left{
-  text-align: right;
-  color: #000000;
+.jobs-two-main .job-item-right {
+  background-color: #FBF8FF;
   font-family: 'myFont';
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 38.4px;
 }
-
-
-.jobs-two-main .left .job-desc{
-  margin-top: 10px;
-}
-
-.jobs-two-main .left .job-res {
-	margin-top: 230px;
-}
-
-.jobs-two-main .left .job-requirment {
-	margin-top: 784px;
-}
-.jobs-two-main .left .job-opt-requirment {
-	margin-top: 476px;
-}
-
-.jobs-two-main .left .job-exp {
-	margin-top: 164px;
-}
-
-.jobs-two-main .left .job-location{
-  margin-top: 10px;
-}
-
-.jobs-two-main .left .job-edu{
-  margin-top: 10px;
-}
-
-.jobs-two-main .left .job-type{
-  margin-top: 10px;
-}
-
-.jobs-two-main .left .job-shift{
-  margin-top: 10px;
-}
-
-.jobs-two-main .left .job-dpt{
-  margin-top: 10px;
-}
-
-.jobs-two-main .left .job-salary{
-  margin-top: 10px;
-}
-
-.jobs-two-main .left .job-benefit{
-  margin-top: 10px;
-}
-
-.jobs-two-main .left .job-photo{
-  margin-top: 10px;
-}
-
-.jobs-two-main .left .job-note{
-  margin-top: 10px;
-}
-
-
-
 
 
 
