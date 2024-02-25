@@ -1028,20 +1028,19 @@
   margin-top: 10px;
 }
 
-.jobs-two-main .left .job-res{
-  margin-top: 10px;
+.jobs-two-main .left .job-res {
+	margin-top: 230px;
 }
 
-.jobs-two-main .left .job-requirment{
-  margin-top: 10px;
+.jobs-two-main .left .job-requirment {
+	margin-top: 784px;
+}
+.jobs-two-main .left .job-opt-requirment {
+	margin-top: 476px;
 }
 
-.jobs-two-main .left .job-opt-requirment{
-  margin-top: 10px;
-}
-
-.jobs-two-main .left .job-exp{
-  margin-top: 10px;
+.jobs-two-main .left .job-exp {
+	margin-top: 164px;
 }
 
 .jobs-two-main .left .job-location{
