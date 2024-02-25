@@ -1,36 +1,139 @@
-/* :root {
-  --bg-color-primary: #040533;
-  --bg-color-whight: #ffffff;
-  --color-black: #000000;
-  --color-black-light: #3D3D3D;
-  --btn-color: #7B19FF;
-  --btn-bg-color: #e9d8ff;
-  --light-bg: #FBF9F8;
-  --light-blue: #083232;
-  --text-light: #808080;
-  --uv-light: #E5D1FF;
+/* team about start  */
 
-} */
-
-/* @font-face {
-  font-family: myFont;
-  src: url(../font/Duplet-Regular.otf);
+.tabout_first {
+	margin-top: 95px;
+	margin-bottom: 120px;
 }
 
-@font-face {
-  font-family: myFont-1;
-  src: url(../font/dalfitra.otf);
+.tabout_left_side h2 {
+	font-family: 'myFont';
+	font-size: 55px;
+	font-weight: 400;
+	line-height: 70px;
+	letter-spacing: 0em;
+	text-align: left;
 }
 
-@font-face {
-  font-family: interFont;
-  src: url(../font/Inter-Regular.ttf);
+.tabout_left_side h3 {
+	font-family: 'myFont';
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 51px;
+	letter-spacing: 0em;
+	text-align: left;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-} */
+.tabout_left_side p {
+	font-family: 'myFont';
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 38px;
+	letter-spacing: 0em;
+	text-align: left;
+	margin-top: 40px;
+	padding-right: 30px;
+}
+
+.tabout_left_side_social ul {
+	display: flex;
+	justify-content: start;
+	list-style: none;
+	gap: 20px;
+	background-color: #7B19FF12;
+	margin-top: 60px;
+	width: 310px;
+	border-radius: 50px;
+}
+
+.tabout_left_side_social ul li img {
+	height: 46px;
+	width: 46px;
+}
+
+.tabout_right_side img {
+	width: 100%;
+	height: 484px;
+	object-fit: cover;
+	border-radius: 25px;
+}
+
+.tabout_left_side ul li {
+	font-family: 'myFont';
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 38px;
+	letter-spacing: 0em;
+	text-align: left;
+	padding: 10px 0px;
+}
+
+.tabout_second {
+	margin-bottom: 60px;
+}
+
+.tabout_second .tabout_right_side img {
+	width: 100%;
+	height: 668px;
+	object-fit: cover;
+	border-radius: 25px;
+}
+
+.tabout_second .tabout_mobile img{
+  display: none;
+}
+
+.tabout_second .tabout_left_side h2 {
+	font-family: 'myFont';
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 64px;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+
+.tabout_second .tabout_left_side {
+	padding-left: 25px;
+}
+
+.tabout_second .tabout_left_side p {
+	font-family: 'myFont';
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 38px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #000000B2;
+}
+
+.tabout_third {
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+
+.tabout_third .tabout_left_side h2 {
+	font-family: 'myFont';
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 64px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.tabout_third .tabout_left_side ul {
+	font-family: 'myFont';
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 38px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.tabout_third .tabout_right_side img{
+	background-color: #F8F8F8;
+}
+
+/* team about end */
 
 .works-banner {
   background: #040533;
