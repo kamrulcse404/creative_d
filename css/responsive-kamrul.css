@@ -71,7 +71,7 @@
     }
 
     .career-main-card {
-        min-height: 290px;
+        min-height: 280px;
     }
 
     .career-main-card h4 {
@@ -84,6 +84,7 @@
     .career-main-card h3 {
         font-size: 32.01px;
         line-height: 40.98px;
+        text-align: left;
     }
 
     .career-main-card p {
@@ -91,7 +92,147 @@
         line-height: 21.58px;
     }
 
+    .career-gallary-header {
+        margin-top: 40px;
+    }
+
+
+    .career-gallary-header h3 {
+        font-size: 30px;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .career-gallary-header h4 {
+        font-size: 20px;
+        line-height: 21px;
+        display: inline;
+        padding: 5px 14px;
+        letter-spacing: 2px;
+    }
+
+    .grid-container {
+        display: none;
+    }
+
+    .grid-container-mobile {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .item-m-2 {
+        grid-column: 1;
+        grid-row: 2 / span 3;
+    }
+
+    .grid-item-m.item-m-1 img,
+    .grid-item-m.item-m-2 img,
+    .grid-item-m.item-m-3 img,
+    .grid-item-m.item-m-4 img,
+    .grid-item-m.item-m-5 img,
+    .grid-item-m.item-m-6 img {
+        border-radius: 20px 20px 20px 20px;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+
+
+
+
 }
 
-
 /* career end */
+
+/* jobs responsive start  */
+
+@media only screen and (max-width: 1600px) {}
+
+
+/* Desktop/Laptops */
+@media only screen and (max-width: 1200px) {}
+
+
+
+/* Tabs */
+@media only screen and (max-width: 991px) {}
+
+
+/* Mobile Devices (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+
+    .jbanner-details h1 {
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0em;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .jbanner-details p {
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0em;
+        padding-top: 8px;
+    }
+
+    .jdetails-card-body h2 {
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 0em;
+    }
+
+    .jdetails-card-body p {
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0em;
+    }
+
+    .jdetails-card-footer .left ul li img {
+        width: 22px;
+        height: 22px;
+        padding-right: 3px;
+    }
+
+    .jdetails-card-footer .left ul li {
+        font-size: 7px;
+        line-height: 9px;
+        letter-spacing: 0em;
+    }
+
+    .jdetails-card-footer .right a {
+        font-size: 8px;
+        line-height: 10px;
+        letter-spacing: 0em;
+        padding: 5px 7px;
+    }
+
+    .jdetails-card {
+        width: 96%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+
+    .card-footer ul li:first-child a,
+    .card-footer ul li:last-child a {
+        font-size: 9px;
+        line-height: 11px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding: 7px 16px;
+    }
+
+
+    .card-footer ul li a {
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 11px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+
+/* jobs responsive end */
