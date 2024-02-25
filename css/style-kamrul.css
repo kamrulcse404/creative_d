@@ -1,136 +1,136 @@
 /* team about start  */
 
 .tabout_first {
-	margin-top: 95px;
-	margin-bottom: 120px;
+  margin-top: 95px;
+  margin-bottom: 120px;
 }
 
 .tabout_left_side h2 {
-	font-family: 'myFont';
-	font-size: 55px;
-	font-weight: 400;
-	line-height: 70px;
-	letter-spacing: 0em;
-	text-align: left;
+  font-family: 'myFont';
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .tabout_left_side h3 {
-	font-family: 'myFont';
-	font-size: 40px;
-	font-weight: 400;
-	line-height: 51px;
-	letter-spacing: 0em;
-	text-align: left;
+  font-family: 'myFont';
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .tabout_left_side p {
-	font-family: 'myFont';
-	font-size: 30px;
-	font-weight: 400;
-	line-height: 38px;
-	letter-spacing: 0em;
-	text-align: left;
-	margin-top: 40px;
-	padding-right: 30px;
+  font-family: 'myFont';
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 40px;
+  padding-right: 30px;
 }
 
 .tabout_left_side_social ul {
-	display: flex;
-	justify-content: start;
-	list-style: none;
-	gap: 20px;
-	background-color: #7B19FF12;
-	margin-top: 60px;
-	width: 310px;
-	border-radius: 50px;
+  display: flex;
+  justify-content: start;
+  list-style: none;
+  gap: 20px;
+  background-color: #7B19FF12;
+  margin-top: 60px;
+  width: 310px;
+  border-radius: 50px;
 }
 
 .tabout_left_side_social ul li img {
-	height: 46px;
-	width: 46px;
+  height: 46px;
+  width: 46px;
 }
 
 .tabout_right_side img {
-	width: 100%;
-	height: 484px;
-	object-fit: cover;
-	border-radius: 25px;
+  width: 100%;
+  height: 484px;
+  object-fit: cover;
+  border-radius: 25px;
 }
 
 .tabout_left_side ul li {
-	font-family: 'myFont';
-	font-size: 30px;
-	font-weight: 400;
-	line-height: 38px;
-	letter-spacing: 0em;
-	text-align: left;
-	padding: 10px 0px;
+  font-family: 'myFont';
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 10px 0px;
 }
 
 .tabout_second {
-	margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .tabout_second .tabout_right_side img {
-	width: 100%;
-	height: 668px;
-	object-fit: cover;
-	border-radius: 25px;
+  width: 100%;
+  height: 668px;
+  object-fit: cover;
+  border-radius: 25px;
 }
 
-.tabout_second .tabout_mobile img{
+.tabout_second .tabout_mobile img {
   display: none;
 }
 
 .tabout_second .tabout_left_side h2 {
-	font-family: 'myFont';
-	font-size: 50px;
-	font-weight: 400;
-	line-height: 64px;
-	letter-spacing: 0em;
-	text-align: left;
+  font-family: 'myFont';
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
 
 }
 
 .tabout_second .tabout_left_side {
-	padding-left: 25px;
+  padding-left: 25px;
 }
 
 .tabout_second .tabout_left_side p {
-	font-family: 'myFont';
-	font-size: 30px;
-	font-weight: 400;
-	line-height: 38px;
-	letter-spacing: 0em;
-	text-align: left;
-	color: #000000B2;
+  font-family: 'myFont';
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000B2;
 }
 
 .tabout_third {
-	margin-top: 120px;
-	margin-bottom: 120px;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .tabout_third .tabout_left_side h2 {
-	font-family: 'myFont';
-	font-size: 50px;
-	font-weight: 400;
-	line-height: 64px;
-	letter-spacing: 0em;
-	text-align: left;
+  font-family: 'myFont';
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .tabout_third .tabout_left_side ul {
-	font-family: 'myFont';
-	font-size: 30px;
-	font-weight: 400;
-	line-height: 38px;
-	letter-spacing: 0em;
-	text-align: left;
+  font-family: 'myFont';
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
-.tabout_third .tabout_right_side img{
-	background-color: #F8F8F8;
+.tabout_third .tabout_right_side img {
+  background-color: #F8F8F8;
 }
 
 /* team about end */
@@ -257,7 +257,7 @@
   border-radius: 50px;
 }
 
-.load{
+.load {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
@@ -275,13 +275,13 @@
   border-radius: 15px;
   background-color: #7B19FF;
   margin-top: 10px;
-} 
+}
 
-.load i{
+.load i {
   padding-left: 10px;
 }
 
-.myCard{
+.myCard {
   display: none;
 }
 
@@ -377,7 +377,7 @@
   letter-spacing: 2px;
 }
 
-.career-img-mobile{
+.career-img-mobile {
   display: none;
 }
 
@@ -409,9 +409,7 @@
   margin-top: 130px;
 }
 
-.career-main-deader{
-
-}
+.career-main-deader {}
 
 .career-main-deader h3 {
   font-family: 'myFont';
@@ -483,7 +481,7 @@
   padding-bottom: 13px;
 }
 
-.career-main-card p{
+.career-main-card p {
   font-family: 'myFont';
   font-weight: 400;
   font-size: 25px;
@@ -515,11 +513,11 @@
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
-  padding: 5px  10px;
+  padding: 5px 10px;
   border-radius: 24px;
 }
 
-.career-gallary-header h3{
+.career-gallary-header h3 {
   font-family: 'myFont';
   font-weight: 600;
   font-size: 67px;
@@ -555,7 +553,7 @@
 }
 
 
-.grid-container-mobile{
+.grid-container-mobile {
   display: none;
 }
 
@@ -885,4 +883,209 @@
   margin-bottom: 0px;
   margin-top: 0px;
 }
+
 /* job first style end */
+
+
+
+
+/* jobs two css start  */
+.jobs-two-banner {
+  margin-top: 106px;
+  text-align: center;
+}
+
+.jobs-two-banner .jobst-banner-details h1 {
+  font-family: 'myFont';
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 46px;
+  color: #000000;
+}
+
+.jobs-two-banner .jobst-banner-details ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.jobs-two-banner .jobst-banner-details ul li {
+  font-family: 'myFont';
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-right: 25px;
+  color: #000000;
+}
+
+.jobs-two-banner .jobst-banner-details ul li img {
+  height: 24px;
+  width: 24px;
+}
+
+.jobs-two-banner .social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.jobs-two-banner .social-media ul {
+  padding: 0px;
+}
+
+.jobs-two-banner .social-media ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.jobs-two-banner .social-media h2 {
+  font-family: 'myFont';
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 35px;
+  padding-right: 20px;
+}
+
+.jobs-two-banner .btn-jobt-bnr {
+  font-family: 'myFont';
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 38px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background-color: #7B19FF;
+  border-radius: 8px;
+  padding: 10px 30px;
+  margin-top: 110px;
+}
+
+
+.jobs-two-banner .btn-jobt-bnr:hover {
+  color: #FFFFFF;
+  background-color: #7B19FF;
+}
+
+.jobs-two-banner .back {
+  margin-top: 42px;
+  margin-bottom: 76px;
+}
+
+.jobs-two-banner .back a {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #7B19FF;
+  text-decoration: none;
+}
+
+.jobs-two-main .left,
+.jobs-two-main .right {
+  background-color: #FBF8FF;
+  padding: 40px;
+  border-radius: 20px;
+
+  font-family: 'myFont';
+  font-size: 22px;
+  font-weight: 400;
+
+}
+
+.jobs-two-main .right .job-desc {}
+
+.jobs-two-main .right .job-respon {
+  line-height: 44px;
+  margin-top: 87px;
+}
+
+.jobs-two-main .right .job-requirment,
+.jobs-two-main .right .job-opt-req,
+.jobs-two-main .right .job-exp,
+.jobs-two-main .right .job-location,
+.jobs-two-main .right .job-edu,
+.jobs-two-main .right .job-type,
+.jobs-two-main .right .job-shift,
+.jobs-two-main .right .job-dept,
+.jobs-two-main .right  .job-slary,
+.jobs-two-main .right .job-benefit,
+.jobs-two-main .right .job-photo,
+.jobs-two-main .right .job-deadline,
+.jobs-two-main .right .job-note {
+  line-height: 44px;
+  margin-top: 30px; 
+}
+
+.jobs-two-main .left{
+  text-align: right;
+  color: #000000;
+  font-family: 'myFont';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38.4px;
+}
+
+
+.jobs-two-main .left .job-desc{
+  margin-top: 10px;
+}
+
+.jobs-two-main .left .job-res{
+  margin-top: 10px;
+}
+
+.jobs-two-main .left .job-requirment{
+  margin-top: 10px;
+}
+
+.jobs-two-main .left .job-opt-requirment{
+  margin-top: 10px;
+}
+
+.jobs-two-main .left .job-exp{
+  margin-top: 10px;
+}
+
+.jobs-two-main .left .job-location{
+  margin-top: 10px;
+}
+
+.jobs-two-main .left .job-edu{
+  margin-top: 10px;
+}
+
+.jobs-two-main .left .job-type{
+  margin-top: 10px;
+}
+
+.jobs-two-main .left .job-shift{
+  margin-top: 10px;
+}
+
+.jobs-two-main .left .job-dpt{
+  margin-top: 10px;
+}
+
+.jobs-two-main .left .job-salary{
+  margin-top: 10px;
+}
+
+.jobs-two-main .left .job-benefit{
+  margin-top: 10px;
+}
+
+.jobs-two-main .left .job-photo{
+  margin-top: 10px;
+}
+
+.jobs-two-main .left .job-note{
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* jobs two css end */
