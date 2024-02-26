@@ -10,7 +10,67 @@
 
 
 /* Tabs */
-@media only screen and (max-width: 991px) {}
+@media only screen and (max-width: 991px) {
+
+    .tabout_first {
+        margin-top: 35px;
+        margin-bottom: 54px;
+    }
+
+    .tabout_third {
+        margin-top: 60px;
+        margin-bottom: 120px;
+    }
+    
+    .tabout_first .col-md-6{
+        width: 100%;
+    }
+
+    .tabout_second .col-md-6{
+        width: 100%;
+    }
+
+    .tabout_third .col-md-6{
+        width: 100%;
+    }
+
+
+    .tabout_second .tabout_right_side img{
+        display: none;
+    }
+
+    .tabout_second .tabout_mobile img {
+        display: block;
+        width: 100% !important;
+        border-radius: 20px;
+    }
+
+    .tabout_first .tabout_right_side img {
+        height: auto;
+    }
+
+    .tabout_second .tabout_right_side img {
+        height: auto;
+    }
+
+    .tabout_third .tabout_right_side img {
+        height: auto;
+    }
+
+    .tabout_second .tabout_left_side {
+        padding-left: 0px;
+        margin-bottom: 64px;
+    }
+
+    .tabout_third .tabout_left_side {
+        margin-bottom: 50px;
+    }
+
+    .tabout_first .tabout_left_side {
+        margin-bottom: 70px;
+    }
+
+}
 
 
 /* Mobile Devices (portrait and landscape) */
@@ -19,15 +79,20 @@
         margin-top: 45px;
         padding-left: 25px;
         padding-right: 25px;
-        margin-bottom: 35px;
+        margin-bottom: 10px;
     }
 
     .tabout_third {
         padding-left: 25px;
         padding-right: 25px;
+        margin-top: 0px;
     }
 
-    .tabout_left_side p {
+    .tabout_second {
+        margin-bottom: 18px;
+    }
+
+    .tabout_first .tabout_left_side p {
         margin-top: 17px;
     }
 
@@ -41,7 +106,7 @@
         line-height: 26px;
     }
 
-    .tabout_left_side p {
+    .tabout_first .tabout_left_side p {
         font-size: 20px;
         font-weight: 400;
         line-height: 26px;
@@ -63,7 +128,7 @@
     }
 
     .tabout_right_side img {
-        margin-top: 32px;
+        margin-top: 0px;
         height: auto;
     }
 
@@ -88,10 +153,17 @@
         color: #050533;
     }
 
+
+    .tabout_second .tabout_left_side {
+        padding-left: 24px;
+        margin-top: 30px;
+        margin-bottom: 26px;
+    }
+
     .tabout_second .tabout_left_side p {
         font-size: 20px;
         line-height: 26px;
-        margin-bottom: 45px;
+        margin-bottom: 0px;
     }
 
     .tabout_second .tabout_mobile img {
@@ -101,13 +173,8 @@
         padding: 20px;
     }
 
-    .tabout_third {
-        margin-top: 0px;
-        margin-bottom: 146px;
-    }
-
-    .tabout_second {
-        margin-bottom: 45px;
+    .tabout_first .tabout_left_side {
+        margin-bottom: 50px;
     }
 }
 
