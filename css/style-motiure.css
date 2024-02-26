@@ -666,7 +666,7 @@ padding-right: 5px;
 	padding-top: 18px;
 }
 .home-card-right p {
-	color: var(--color-black);
+	color: var(--text-ash);
 	font-weight: 300;
 	font-family: myFont;
 	font-size: 21px;
