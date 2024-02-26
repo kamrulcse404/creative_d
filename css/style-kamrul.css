@@ -979,20 +979,38 @@
 }
 
 
+
+.jobs-two-main{
+  margin-bottom: 50px;
+}
+
 .jobs-two-main .job-item {
   display: flex;
   gap: 80px;
 }
 
 .jobs-two-main .job-item-left {
-  background-color: #FBF8FF;
+  background-color: tomato;
   font-family: 'myFont';
   width: 30%;
+  text-align: right;
 }
 
 .jobs-two-main .job-item-right {
-  background-color: #FBF8FF;
+  background-color: tomato;
   font-family: 'myFont';
+  width: 100%;
+  padding: 30px;
+}
+
+.jobs-two-main .job-item:first-child .job-item-right{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.jobs-two-main .job-item:last-child .job-item-right{
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 
