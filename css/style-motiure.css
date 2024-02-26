@@ -261,7 +261,6 @@ padding-right: 5px;
     border: none;
 }
 .bottom-card2-text button h6 {
-    /* padding: 0px 23px; */
     font-family: myFont;
     color: var(--bg-color-whight);
     font-size: 20px;
@@ -274,14 +273,9 @@ padding-right: 5px;
     width: 23px;
     height: 23px;
     margin-top: 7px;
-    margin-right: 10px;
+    margin-right: 10px;
 }
 /* footer style end */
-
-
-
-
-
 
 
 /* home page css  */
@@ -684,7 +678,90 @@ padding-right: 5px;
 	font-weight: 700;
 	border: none;
 }
+/* 26/02/24 */
+.home-carosol {
+	width: 100%;
+	height: auto;
+	margin-bottom: -169px;
+}
 
+.carosol-home-head h2 {
+	font-family: myFont;
+	text-align: center;
+	font-weight: 900;
+	font-size: 43px;
+	padding-bottom: 50px;
+}
+
+/* carosol1-start */
+.owl-carousel-home {
+	border: 1px solid var(--text-ash);
+	width: 80% !important;
+	margin: 0 auto;
+	border-radius: 25px;
+  padding: 40px;
+  background: var(--bg-color-whight);
+}
+.owl-carousel-home .owl-item img {
+	width: 30% !important;
+	margin: 0 auto;
+  padding-top: 25px;
+}
+.owl-carousel-home .owl-item h2 {
+	color: var(--color-black);
+	text-align: center;
+	font-weight: 600;
+	font-size: 29px;
+	padding-top: 15px;
+	font-family: myFont;
+}
+.owl-carousel-home .owl-item h5 {
+	color: var(--color-black-light);
+	font-family: myFont;
+	text-align: center;
+	text-transform: capitalize;
+	line-height: 25px;
+	padding-top: 12px;
+}
+.owl-carousel-home .owl-nav .owl-prev,
+.owl-carousel-home .owl-nav .owl-next {
+    position: absolute;
+    top: 40%;
+    font-size: 38px !important;
+    background: var(--btn-color) !important;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px !important;
+    color: var(--bg-color-whight) !important;
+  }
+  .owl-carousel-home .owl-nav .owl-prev {
+    left: -35px;
+  }
+  .owl-carousel-home .owl-nav .owl-next {
+    right: -35px;
+  }
+/* carosol1-end */
+
+.home-carosol2{
+  background: var(--bg-color-primary);
+  width: 100%;
+  height: auto;
+  padding-top: 170px;
+}
+.home-carosol2-head h2 {
+	color: var(--bg-color-whight);
+	font-family: myFont;
+	text-align: center;
+	padding-top: 140px;
+	font-size: 40px;
+}
+.home-carosol2-head p {
+	color: var(--bg-color-whight);
+	font-family: myFont;
+	text-align: center;
+	font-size: 19px;
+	padding-top: 15px;
+}
 /* contact page css  */
 
 .contact_sec_title{
