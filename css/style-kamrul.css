@@ -381,28 +381,33 @@
   display: none;
 }
 
+
+
 .career-img {
-  padding-left: 35px;
-  position: relative;
-  padding-left: 0;
+	right: 0px;
+	position: absolute;
+	right: 0px;
 }
 
 .career-img img {
-  position: relative;
-  left: 112px;
+	max-width: 650px;
 }
 
+
 .circle-img {
-  position: absolute;
-  left: -55px;
-  bottom: 40px;
+	position: relative;
+	padding-left: 0;
+	right: 0px;
+	bottom: 40px;
 }
 
 .circle-img img {
-  max-height: 110px;
-  max-width: 110px;
+	max-height: 90px;
+	max-width: 90px;
+	position: relative;
+	left: -40px;
+	bottom: 78px;
 }
-
 
 
 .career-main {
@@ -471,14 +476,16 @@
   margin-bottom: 25px;
 }
 
+
 .career-main-card h3 {
-  font-family: 'myFont';
-  font-weight: 700;
-  font-size: 43px;
-  line-height: 48px;
-  letter-spacing: 1px;
-  color: #000000;
-  padding-bottom: 13px;
+	font-family: 'myFont';
+	font-weight: 700;
+	font-size: 43px;
+	line-height: 48px;
+	letter-spacing: 1px;
+	color: #000000;
+	padding-bottom: 13px;
+	text-align: left;
 }
 
 .career-main-card p {

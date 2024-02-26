@@ -181,7 +181,67 @@
 /* team about end */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* career start  */
+
+
+/* Tabs */
+@media only screen and (max-width: 991px) {
+
+    .career-details {
+        padding-right: 0px;
+    }
+
+    .career-details h1 {
+        font-size: 37px;
+        line-height: 44px;
+    }
+
+    .career-details h1 br{
+        display: none;
+    }
+
+    .career-details p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .career-details .btn-career {
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 17px 14px;
+        line-height: 0px;
+    }
+
+    .circle-img img {
+        max-height: 70px;
+        max-width: 70px;
+    }
+
+    .circle-img {
+        left: -33px;
+    }
+}
+
+
 
 /* Mobile Devices (portrait and landscape) */
 @media only screen and (max-width: 767px) {
@@ -335,6 +395,21 @@
 
 /* career end */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* jobs responsive start  */
 
 @media only screen and (max-width: 1600px) {}
@@ -425,6 +500,24 @@
 }
 
 /* jobs responsive end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -636,3 +729,16 @@
 }
 
 /* jobs 2 responsive end */
+
+
+
+
+
+
+
+
+
+
+
+
+
