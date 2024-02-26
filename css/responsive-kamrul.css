@@ -369,7 +369,75 @@
 
 /* Tabs */
 @media only screen and (max-width: 991px) {
-    
+
+    .jobs-two-banner .jobst-banner-details h1 {
+        font-size: 30px;
+    }
+
+    .jobs-two-banner .jobst-banner-details ul li {
+        font-size: 18px;
+    }
+
+    .jobs-two-banner .social-media h2 {
+        font-size: 20px;
+    }
+
+
+    .jobs-two-banner .btn-jobt-bnr {
+        font-size: 20px;
+        padding: 4px 20px;
+    }
+
+    .jobs-two-banner .back a {
+        font-size: 18px;
+    }
+
+    .jobs-two-banner .back {
+        margin-top: 18px;
+        margin-bottom: 40px;
+    }
+
+    .jobs-two-banner .btn-jobt-bnr {
+        margin-top: 60px;
+    }
+
+    .job-decs {
+        background-color: #FBF8FF !important;
+        border-radius: 20px;
+    }
+
+    .jobs-two-main .job-item {
+        display: block;
+    }
+
+    .jobs-two-main .job-item-left {
+        width: 100%;
+        text-align: left;
+        padding-bottom: 0px;
+    }
+
+    .jobs-two-main .job-item-right {
+        padding-top: 10px;
+    }
+
+    .apply-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-jobs-2 {
+        margin-left: 0px;
+        font-size: 15px;
+        padding: 0px 15px;
+    }
+
+    .btn-left {
+        width: 0%;
+    }
+
+    .apply-btn {
+        width: 100%;
+    }
 }
 
 
@@ -468,9 +536,18 @@
 
     .job-decs {
         background-color: #FBF8FF !important;
+        border-radius: 20px;
     }
 
-    .apply-btn{
+    .btn-left {
+        width: 0%;
+    }
+
+    .apply-btn {
+        width: 100%;
+    }
+
+    .apply-btn {
         display: flex;
         justify-content: center;
     }
@@ -481,6 +558,7 @@
         font-weight: 600;
         line-height: 14px;
         margin-top: 36px;
+        padding: 10px 10px;
     }
 }
 
