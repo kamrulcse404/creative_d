@@ -1,0 +1,27 @@
+
+/* carosol */
+.carosols-img {
+    margin-top: -155px;
+    padding-bottom: 50px;
+  }
+  .owl-carousel .item {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .owl-carousel .owl-item img {
+    border-radius: 15px;
+  }
+  .owl-theme .owl-nav .owl-prev,
+  .owl-theme .owl-nav .owl-next {
+    position: absolute;
+    top: 36%;
+    font-size: 50px !important;
+  }
+  .owl-theme .owl-nav .owl-prev {
+    left: 0px;
+  }
+  .owl-theme .owl-nav .owl-next {
+    right: 2px;
+  }
