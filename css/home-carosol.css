@@ -1,0 +1,118 @@
+/* carosol1-start */
+.owl-carousel-home {
+    border: 1px solid var(--text-ash);
+    width: 80% !important;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding: 40px;
+    background: var(--bg-color-whight);
+  }
+  .owl-carousel-home .owl-item img {
+    width: 30% !important;
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+  .owl-carousel-home .owl-item h2 {
+    color: var(--color-black);
+    text-align: center;
+    font-weight: 600;
+    font-size: 29px;
+    padding-top: 15px;
+    font-family: myFont;
+  }
+  .owl-carousel-home .owl-item h5 {
+    color: var(--color-black-light);
+    font-family: myFont;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 25px;
+    padding-top: 12px;
+  }
+  .owl-carousel-home .owl-nav .owl-prev,
+  .owl-carousel-home .owl-nav .owl-next {
+    position: absolute;
+    top: 40%;
+    font-size: 38px !important;
+    background: var(--btn-color) !important;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px !important;
+    color: var(--bg-color-whight) !important;
+  }
+  .owl-carousel-home .owl-nav .owl-prev {
+    left: -35px;
+  }
+  .owl-carousel-home .owl-nav .owl-next {
+    right: -35px;
+  }
+  .carousel-home-left {
+    width: 90% !important;
+    float:left;
+  }
+  .carousel-home-right {
+    width: 90% !important;
+    float:right;
+  }
+  
+  
+  .carousel-home-left .owl-nav .owl-prev,
+  .carousel-home-left .owl-nav .owl-next,
+  .carousel-home-right .owl-nav .owl-prev,
+  .carousel-home-right .owl-nav .owl-next {
+    position: absolute;
+    top: 37%;
+    font-size: 30px !important;
+    color: var(--bg-color-whight) !important;
+    font-weight: 800 !important;
+  }
+  .carousel-home-left .owl-nav .owl-prev,
+  .carousel-home-right .owl-nav .owl-prev {
+    left: -30px;
+  }
+  .carousel-home-left .owl-nav .owl-next,
+  .carousel-home-right .owl-nav .owl-next {
+    right: -30px;
+  }
+  .carousel-home-left ,
+  .carousel-home-right {
+    height: 100%;
+  }
+  .carosol-item-card {
+    background: var(--color-uv2);
+    display: flex;
+    border-radius: 20px;
+  }
+  .carosol-card-left {
+    width: 40%;
+  }
+  .carosol-card-right {
+    width: 60%;
+  }
+  .carosol-card-right h2 {
+      color: var(--bg-color-whight);
+      font-family: myFont;
+      font-weight: 400;
+      font-size: 120px;
+      padding-top: 8px;
+  }
+  .carosol-card-right p {
+    color: var(--bg-color-whight);
+    font-family: myFont;
+    font-weight: 100;
+    margin-top: -79px;
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+  .carosol-card-bottom {
+      display: flex;
+      justify-content: space-between;
+      padding-right: 25px;
+      padding-bottom: 32px;
+  }
+  .carosol-card-bottom h3 {
+    color: var(--bg-color-whight);
+    font-family: myFont;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  /* carosol1-end */
