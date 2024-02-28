@@ -94,6 +94,11 @@
 @media only screen and (max-width : 767px) {
 
     /* nav-bar-start */
+    .nevi-sec {
+        padding-top: 110px;
+        padding-bottom: 0px;
+    }
+
     .nav {
         padding: 1rem;
     }
@@ -101,43 +106,37 @@
     .nav>.nav-header {
         display: inline-block;
         position: absolute;
-        left: 0;
-        top: 0;
-        padding-top: 0.2rem;
+        left: 48px;
+        top: 39px;
+        width: 44%;
     }
 
     .nav>.nav-btn {
         display: inline-block;
         position: absolute;
-        right: 0;
-        top: 0;
-        padding-top: 0.2rem;
+        right: 48px;
+        top: 45px;
+        width: 8%;
     }
 
     .nav>.nav-btn>label {
         display: inline-block;
-        width: 50px;
-        height: 50px;
-        padding: 13px;
+        width: 100%;
     }
 
-    .nav>.nav-btn>label>span {
+    .nav>.nav-btn>label img {
+        height: 100%;
+        width: 100%;
         display: block;
-        width: 25px;
-        height: 10px;
-        border-top: 2px solid #eee;
     }
 
     .nav>.nav-list {
-        position: absolute;
-        gap: 1rem;
+        position: initial;
         width: 100%;
-        background-color: #1A237E;
+        background-color: #1E1E49;
         height: 0;
-        transition: all 0.3s ease-in;
-        top: 40px;
-        left: 0;
-        overflow: hidden;
+        overflow-y: hidden;
+        flex-direction: column;
     }
 
     .nav>.nav-list>ul {
@@ -150,8 +149,48 @@
         margin-top: 1.5rem;
     }
 
-    .nav>#nav-check:checked~.nav-list {
-        height: calc(100vh - 50px);
+    .nav > #nav-check:checked ~ .nav-list {
+        height: 100%;
+        position: relative;
+    }
+
+    .start-btn {
+        display: none;
+    }
+    .nav-list img {
+        display: block;
+        width: 225px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .start-btn-mob {
+        display: block;
+        width: 40%;
+        margin-top: 1rem;
+        margin-bottom: 250px;
+    }
+    .start-btn-mob ul {
+        list-style: none;
+    }
+    .start-btn-mob ul li {
+        width: 100%;
+    }
+    .start-btn-mob ul li a {
+        color: var(--bg-color-whight);
+        text-decoration: none;
+        font-weight: 600;
+        border: 1px solid var(--color-uv2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+        height: 30px;
+        margin-left: 8px;
+        min-width: 120px;
+    }
+    .start-btn-mob ul li a:hover {
+        background-color: var(--btn-color);
     }
 
     /* nav-bar-end */
@@ -309,4 +348,19 @@
     }
 
 
+
+
+
+
+
+
+    /* home-start */
+    .review_main_img img {
+        margin-top: 0;
+        position: inherit;
+    }
+
+    .review_img img {
+        position: inherit;
+    }
 }

@@ -81,11 +81,15 @@ body {
 .nav > #nav-check {
     display: none;
 }
+.nav > .nav-btn > label img {
+  display: none;
+}
 .start-btn {
   width: 20%;
   display: flex;
   align-items: center;
 }
+
 .start-btn a {
 	color: var(--bg-color-whight);
 	text-decoration: none;
@@ -97,10 +101,18 @@ body {
 	justify-content: center;
 	align-items: center;
 	border-radius: 6px;
+	min-width: 130px;
 }
 .start-btn a:hover {
   background-color: var(--btn-color);
 }
+.nav-list img {
+  display: none;
+}
+.start-btn-mob {
+  display: none;
+}
+
 /* nevi-sec-end */
 
 /* footer style start  */
