@@ -137,6 +137,7 @@
         height: 0;
         overflow-y: hidden;
         flex-direction: column;
+        transition: all 0.3s ease-in;
     }
 
     .nav>.nav-list>ul {
@@ -148,9 +149,9 @@
         width: 100%;
         margin-top: 1.5rem;
     }
-
+    
     .nav > #nav-check:checked ~ .nav-list {
-        height: 100%;
+        height: 550px;
         position: relative;
     }
 
