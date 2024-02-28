@@ -1,11 +1,5 @@
-
-
-
 /* laptops*/
-@media only screen and (max-width : 1400px) {
-
-   
-}
+@media only screen and (max-width : 1400px) {}
 
 
 /* Tablets*/
@@ -21,10 +15,12 @@
     .problem-text {
         padding: 0;
     }
+
     .problem-text-left {
         display: block;
         width: 100%;
-    } 
+    }
+
     .share-bar {
         min-width: 100%;
         min-height: auto;
@@ -32,50 +28,61 @@
         justify-content: center;
         gap: 15px;
         flex-direction: row;
-    } 
-    .problem-intro, .the-solution {
+    }
+
+    .problem-intro,
+    .the-solution {
         padding-top: 30px;
     }
-    .problem-text-right p, .problem-text-right a {
+
+    .problem-text-right p,
+    .problem-text-right a {
         font-size: 22px;
         line-height: 35px;
-    } 
+    }
+
     .problem-text-right h2 {
         font-size: 35px;
         line-height: 30px;
         padding-top: 15px;
-        padding-bottom: 20px; 
+        padding-bottom: 20px;
     }
 
     .media-items {
-        display: block;  
+        display: block;
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
     .share-on {
         font-size: 20px;
         padding-top: 30px;
         justify-content: center;
     }
+
     .share-on a img {
         width: 30px;
         height: auto;
         object-fit: cover;
     }
+
     .design-btn {
         padding-top: 0px;
         width: 100%;
         margin: 0 auto;
         display: flex;
-        justify-content: center; 
-    } 
-    .previous-btn a , .next-btn a{
+        justify-content: center;
+    }
+
+    .previous-btn a,
+    .next-btn a {
         font-size: 15px;
     }
+
     .problem_img {
         margin-top: -80px;
     }
-    
+
     .problem_top {
         min-height: 400px;
         margin-top: -2px;
@@ -86,6 +93,69 @@
 /*Small Devices, Tablets*/
 @media only screen and (max-width : 767px) {
 
+    /* nav-bar-start */
+    .nav {
+        padding: 1rem;
+    }
+
+    .nav>.nav-header {
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding-top: 0.2rem;
+    }
+
+    .nav>.nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-top: 0.2rem;
+    }
+
+    .nav>.nav-btn>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+    }
+
+    .nav>.nav-btn>label>span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+    }
+
+    .nav>.nav-list {
+        position: absolute;
+        gap: 1rem;
+        width: 100%;
+        background-color: #1A237E;
+        height: 0;
+        transition: all 0.3s ease-in;
+        top: 40px;
+        left: 0;
+        overflow: hidden;
+    }
+
+    .nav>.nav-list>ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav>.nav-list>ul li {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .nav>#nav-check:checked~.nav-list {
+        height: calc(100vh - 50px);
+    }
+
+    /* nav-bar-end */
+
     .problem-top-row h1 {
         font-size: 40px;
         line-height: 45px;
@@ -94,10 +164,12 @@
     .problem-text {
         padding: 0;
     }
+
     .problem-text-left {
         display: block;
         width: 100%;
-    } 
+    }
+
     .share-bar {
         min-width: 100%;
         min-height: auto;
@@ -105,46 +177,57 @@
         justify-content: center;
         gap: 15px;
         flex-direction: row;
-    } 
-    .problem-intro, .the-solution {
+    }
+
+    .problem-intro,
+    .the-solution {
         padding-top: 30px;
     }
-    .problem-text-right p, .problem-text-right a {
+
+    .problem-text-right p,
+    .problem-text-right a {
         font-size: 22px;
         line-height: 35px;
-    } 
+    }
+
     .problem-text-right h2 {
         font-size: 35px;
         line-height: 30px;
         padding-top: 15px;
-        padding-bottom: 20px; 
+        padding-bottom: 20px;
     }
 
     .media-items {
-        display: block;  
+        display: block;
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
     .share-on {
         font-size: 20px;
         padding-top: 30px;
         justify-content: center;
     }
+
     .share-on a img {
         width: 30px;
         height: auto;
         object-fit: cover;
     }
+
     .design-btn {
         padding-top: 0px;
         width: 100%;
         margin: 0 auto;
         display: flex;
-        justify-content: center; 
-    } 
-    .previous-btn a , .next-btn a{
+        justify-content: center;
+    }
+
+    .previous-btn a,
+    .next-btn a {
         font-size: 15px;
     }
+
     .problem_img {
         margin-top: -80px;
     }
@@ -152,13 +235,13 @@
     .problem_top {
         min-height: 400px;
         margin-top: -2px;
-    } 
+    }
 
     .bottom-card1-text button {
         width: auto;
         padding: 5px 15px;
         font-size: 22px;
-    
+
     }
 
     .bottom-card1-img img {
@@ -174,13 +257,14 @@
         line-height: 30px;
         text-align: center;
     }
+
     .bottom-card1-text {
         margin: 0 auto;
         width: 100%;
         display: flex;
         flex-direction: column;
         padding: 0 20px;
-    } 
+    }
 
     .bottom-card1 {
         display: flex;
@@ -195,13 +279,15 @@
         padding-top: 60px;
         font-size: 30px;
         font-weight: 100;
-        font-family: myFont; 
+        font-family: myFont;
         text-align: center;
     }
+
     .bottom-card2 {
         width: 100%;
         margin-left: 0;
-    } 
+    }
+
     .bottom-card2-text p {
         font-family: myFont;
         font-size: 22px;
