@@ -131,7 +131,7 @@
     }
 
     .nav>.nav-list {
-        position: initial;
+        position: relative;
         width: 100%;
         background-color: #1E1E49;
         height: 0;
@@ -364,4 +364,14 @@
     .review_img img {
         position: inherit;
     }
+
+
+
+
+
+
+
+
+
+    
 }

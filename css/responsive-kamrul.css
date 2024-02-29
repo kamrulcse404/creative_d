@@ -278,6 +278,37 @@
 /* Mobile Devices (portrait and landscape) */
 @media only screen and (max-width: 767px) {
 
+    /* job-1-page-start */
+    .container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .job-banner {
+        margin-top: 38px;
+    }
+
+    .jbanner-search form {
+        display: flex;
+        flex-direction: column;
+    }
+    .jbanner-search .form-control {
+        width: 100% !important;
+        margin-bottom: 8px;
+        padding: 8px 12px;
+        font-size: 15px;
+    }
+    .jbanner-search {
+        margin-top: 30px;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+    .btn-job-search {
+        font-size: 17px;
+        letter-spacing: 0px;
+        padding: 0px;
+        border-radius: 5px;
+    }
+
     .jbanner-details h1 {
         font-size: 16px;
         line-height: 21px;
@@ -317,6 +348,10 @@
         letter-spacing: 0em;
     }
 
+    .jdetails-card-footer .right {
+        min-width: 50px;
+    }
+
     .jdetails-card-footer .right a {
         font-size: 8px;
         line-height: 10px;
@@ -325,9 +360,9 @@
     }
 
     .jdetails-card {
-        width: 96%;
-        margin: 0 auto;
         margin-bottom: 20px;
+        margin-left: 23px;
+        margin-right: 23px;
     }
 
 

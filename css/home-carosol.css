@@ -81,6 +81,25 @@
     background: var(--color-uv2);
     display: flex;
     border-radius: 20px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+  }
+  .owl-carousel .owl-stage {
+    height: 100%;
+  }
+  .owl-carousel .owl-stage-outer {
+    height: 100%;
+  }
+  .owl-carousel.owl-drag .owl-item {
+    height: 100%;
+  }
+  .owl-carousel .owl-item img {
+    height: 100%;
+  }
+  .owl-carousel .owl-item .item {
+    height: 100%;
   }
   .carosol-card-left {
     width: 40%;
@@ -93,15 +112,15 @@
       font-family: myFont;
       font-weight: 400;
       font-size: 120px;
-      padding-top: 8px;
   }
   .carosol-card-right p {
     color: var(--bg-color-whight);
     font-family: myFont;
     font-weight: 100;
-    margin-top: -79px;
+    margin-top: -70px;
     font-size: 14px;
     text-transform: capitalize;
+    padding-bottom: 5px;
   }
   .carosol-card-bottom {
       display: flex;
