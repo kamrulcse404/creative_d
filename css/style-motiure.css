@@ -157,6 +157,10 @@ footer {
   padding-top: 180px;
   padding-bottom: 25px;
 }
+.bottom-mid-row {
+	display: flex;
+	justify-content: space-around;
+}
 .bottom-row img {
   height: 45px;
   width: 195px;
@@ -165,7 +169,6 @@ footer {
   font-size: 15px;
   font-family: myFont;
   padding-top: 20px;
-  padding-left: 12px;
   line-height: 25px;
   color: var(--color-black-light);
 }
@@ -255,6 +258,9 @@ footer {
   height: 100%;
   position: absolute;
   right: 0%;
+}
+.bottom-card1-img2 {
+  display: none;
 }
 .bottom-card2 {
   height: 410px;

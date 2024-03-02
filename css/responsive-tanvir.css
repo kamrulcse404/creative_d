@@ -55,7 +55,7 @@
         object-fit: cover;
     }
     .summary-bar {
-        padding-left: 18px;
+        padding-left: 24px;
     }
     .summary-bar h2 {
         font-size: 28px;
@@ -77,6 +77,7 @@
     .blogs_2-text-right p, .blogs_2-text-right a {
         font-size: 20px;
         line-height: 35px;
+        padding-right: 5px;
     }
     .blogs_2-text-right h2 {
         font-size: 40px;
@@ -99,10 +100,10 @@
         width: 100%;
     }
     .gallary-top, .gallary-bottom {
-        padding: 0px 30px;
+        padding: 0px 48px;
     }
     .result-box {
-        padding-left: 12px;
+        padding: 0 24px;
     }
     .result-box h2 {
         font-size: 40px;
@@ -120,23 +121,26 @@
         margin-bottom: 26px;
     }
     .result-card {
-        width: 90%;
+        width: 85%;
         border-radius: 10px;
         display: block;
         margin: 0 auto;
-        margin-bottom: 20px;
+        margin-bottom: 27px;
     }
     .result-card h5 {
-        font-size: 30px; 
+        font-size: 30px;
         line-height: 28px;
+        padding-left: 20px;
     }
     .result-card h5::after {
         top: 50px;
         border: 1.5px var(--btn-color) solid;
         width: 50px;
+        left: 20px;
     }
     .result-card p {
         font-size: 18px;
+        padding-left: 20px;
     }
     .media-items {
         display: block;
@@ -154,11 +158,13 @@
     } 
     .design-btn a {
         border: 1px solid #000;
-        border-radius: 26px;
         padding: 13px 20px 13px;
         font-size: 15px;
         line-height: 15px;
-    }  
+        width: 50%;
+        text-align: center;
+        margin-left: 0px;
+    }
     .share-on p {
         font-size: 15.01px;
         padding-top: 10px;
