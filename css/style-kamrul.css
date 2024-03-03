@@ -200,19 +200,18 @@
 
 .work_content_cat ul li {
   list-style: none;
-  background-color: #E5D1FF;
-  border-radius: 15px;
   margin-right: 10px;
 }
 
 .work_content_cat ul li a {
-  text-decoration: none;
-  font-size: 25.98px;
-  line-height: 33.26px;
-  font-weight: 400;
-  font-family: 'myFont';
-  color: #000000;
-  padding: 15px 20px;
+	border-radius: 30px;
+	background-color: #E5D1FF;
+	text-decoration: none;
+	font-size: 25.98px;
+	font-weight: 400;
+	font-family: 'myFont';
+	color: #000000;
+	padding: 10px 20px;
 }
 
 
@@ -238,16 +237,16 @@
 
 
 .load-more {
-  text-decoration: none;
-  font-family: 'myFont';
-  font-weight: 500;
-  font-size: 19.73px;
-  line-height: 28.41px;
-  color: #fff;
-  padding: 10px 15px;
-  border-radius: 15px;
-  background-color: #7B19FF;
-  margin-top: 10px;
+	text-decoration: none;
+	font-family: 'myFont';
+	font-weight: 500;
+	font-size: 19.73px;
+	color: #fff;
+	padding: 10px 25px;
+	border-radius: 27px;
+	background-color: #7B19FF;
+	margin-top: 10px;
+	border: none;
 }
 
 .load i {
