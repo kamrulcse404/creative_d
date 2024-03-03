@@ -1,0 +1,48 @@
+:root {
+    --bg-color-primary: #040533;
+    --bg-color-whight: #ffffff;
+    --bg-color-ash: #f6efff;
+    --color-black: #000000;
+    --color-black-light: #3d3d3d;
+    --btn-color: #7b19ff;
+    --btn-bg-color: #e9d8ff;
+    --light-bg: #fbf9f8;
+    --light-blue: #083232;
+    --text-light: #808080;
+    --text-ash: #313033;
+    --uv-light: #e5d1ff;
+    --color-uv: #280b70;
+    --color-uv2: #7B19FF;
+  }
+.owl-carousel-works .item a {
+    text-decoration: none;
+    font-family: myFont;
+    font-size: 27px;
+    font-weight: 500;
+    color: var(--bg-color-whight);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--bg-color-whight);
+    border-radius: 14px;
+}
+.owl-carousel-works .item a:hover {
+    background-color: var(--bg-color-whight);
+    color: var(--bg-color-primary);
+}
+.owl-carousel-works .owl-nav .owl-prev, .owl-carousel-works .owl-nav .owl-next {
+	position: absolute;
+	top: -9%;
+	background: var(--bg-color-whight) !important;
+	height: 40px;
+	width: 40px;
+	border-radius: 30px !important;
+	color: var(--bg-color-primary) !important;
+	font-weight: 700 !important;
+}
+.owl-carousel-works .owl-nav .owl-prev {
+  left: -55px;
+}
+.owl-carousel-works .owl-nav .owl-next {
+  right: -55px;
+}

@@ -453,6 +453,69 @@
 
 
 
+    /* works-1 page */
+    .banner_breadcrumb h4 {
+        font-size: 16px;
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+    .banner_title h2 {
+        font-size: 26px;
+        line-height: 33px;
+        margin-bottom: 0px;
+        padding-bottom: 18px;
+    }
+    .works-banner {
+        padding: 0 55px;
+        min-height: 190px;
+        margin-top: -30px;
+    }
+    .owl-carousel-works .item a {
+        font-size: 16px !important;
+    }
+    .owl-carousel-works .owl-nav .owl-prev,
+    .owl-carousel-works .owl-nav .owl-next {
+        top: -18% !important;
+        font-size: 16px !important;
+        height: 25px !important;
+        width: 25px !important;
+    }
+    .owl-carousel-works .owl-nav .owl-prev {
+        left: -38px !important;
+      }
+      .owl-carousel-works .owl-nav .owl-next {
+        right: -38px !important;
+      }
+      .work_content_left {
+        margin-top: 0px;
+    }
+    .work_item {
+        padding: 30px 45px;
+    }
+    .work_content_img img {
+        border-radius: 10px;
+    }
+    .work_content_details h2 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .work_content_details p {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .work_content_cat ul li a {
+        font-family: myFont;
+        font-size: 10px;
+        font-weight: 400;
+        padding: 0px 15px;
+    }
+
+
+
+
+
+
+
 
     
 }

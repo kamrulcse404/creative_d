@@ -155,43 +155,20 @@
 }
 
 .banner_title h2 {
-  font-family: 'myFont';
-  font-weight: 600;
-  font-size: 57.23px;
-  line-height: 65px;
-  text-align: center;
-  color: #fff;
+	font-family: 'myFont';
+	font-weight: 600;
+	font-size: 57.23px;
+	line-height: 65px;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 50px;
 }
 
-
-
-.work_cat_item p {
-  color: #fff;
-  font-family: 'myFont';
-  font-size: 27.07px;
-  line-height: 34.64px;
-  font-weight: 600;
-}
-
-
-.carousel {
-  position: relative;
-  margin-top: 33px;
-}
 
 .work_content {
   padding-top: 20px;
 }
 
-.work_cat_item p {
-  border: 1.35px solid #fff;
-  border-radius: 8px;
-  padding: 10px 15px;
-}
-
-.work_cat_item {
-  padding: 5px;
-}
 
 .work_content_details {
   margin-top: 18px;
@@ -205,16 +182,12 @@
   line-height: 70px;
   color: #050533;
 }
-
-.work_cat_item p {
-  border: 1.35px solid #fff;
-  border-radius: 8px;
-  padding: 10px 15px;
-  min-height: 92px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.work_content_details p {
+  color: #4D4D4D;
+  font-family: myFont;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
 }
 
 
@@ -292,46 +265,6 @@
 .carousel-control-next {
   margin-right: -120px;
 }
-
-/* slider text css  */
-
-@media (max-width: 767px) {
-  .carousel-inner .carousel-item>div {
-    display: none;
-  }
-
-  .carousel-inner .carousel-item>div:first-child {
-    display: block;
-  }
-}
-
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-  display: flex;
-}
-
-/* medium and up screens */
-@media (min-width: 768px) {
-
-  .carousel-inner .carousel-item-end.active,
-  .carousel-inner .carousel-item-next {
-    transform: translateX(25%);
-  }
-
-  .carousel-inner .carousel-item-start.active,
-  .carousel-inner .carousel-item-prev {
-    transform: translateX(-25%);
-  }
-}
-
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start {
-  transform: translateX(0);
-}
-
-
-
 
 
 /* career style start */
